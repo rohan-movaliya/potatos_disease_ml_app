@@ -1,8 +1,8 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-# import tensorflow.keras as keras
-from tensorflow import keras
+import tensorflow.keras as keras
+# from tensorflow import keras
 import tensorflow_hub as hub
 
 st.set_page_config(page_title="Potato Leaf Disease Prediction", page_icon="🥔")
